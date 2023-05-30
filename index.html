@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="A basic website that allows users to add/remove books from a list"
+    />
+    <meta name="author" content="Arthur Emanuel Guerra Iturres" />
+    <title>Awesome-Books</title>
+  </head>
+  <body>
+    <main>
+      <h1>Awesome Books</h1>
+      <section id="books-data-store">
+        <div class="books--wrapper" data-books-list-holder>
+          <!-- books will be auto injected -->
+        </div>
+      </section>
+      <section id="note-taker">
+        <div class="note-taker--wrapper">
+            <input
+              name="title"
+              type="text"
+              max="50"
+              placeholder="Title"
+              required
+            />
+            <br />
+            <input
+              name="author"
+              type="text"
+              maxlength="30"
+              placeholder="Author"
+              required
+            />
+            <br />
+            <button type="button" data-add-note-btn>Add</button>
+        </div>
+      </section>
+    </main>
+    <script
+      src="src/assets/js/user-controller/user-controller-events.js"
+      type="module"
+    ></script>
+  </body>
+</html>
