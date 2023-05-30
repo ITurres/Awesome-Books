@@ -204,6 +204,12 @@ Example:
 - Twitter: [@Arthur_ITurres](https://twitter.com/ArthurIturres)
 - LinkedIn: [Arthur Emanuel G. Iturres](https://www.linkedin.com/in/arturoemanuelguerraiturres/)
 
+👤 **Author2**
+
+- GitHub  | [@Vishal30M](https://github.com/Vishal30M)
+- Twitter | [@Vismiss30](https://twitter.com/Vismiss30)
+- LinkdIn | [vishal-kumar-mishra](https://www.linkedin.com/in/vishal-kumar-mishra-0a5226232/)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ---
