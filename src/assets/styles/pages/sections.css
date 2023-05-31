@@ -1,4 +1,5 @@
-/* #books-list,
-#add-new-book {
-  height: calc(100vh - 52px);
-} */
+#books-list,
+#add-new-book,
+#contact {
+  height: calc(100vh - 52px); /* !modify calc to remove navbar + footer height*/
+}

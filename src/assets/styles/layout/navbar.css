@@ -1,13 +1,9 @@
-.my-navbar {
-  border: 2px solid black;
-}
-
 .my-navbar__link {
   cursor: pointer;
 }
 
 .my-navbar__link.ps-2 {
-  border-left: 1px solid black;
+  border-left: 2px solid black;
 }
 
 .my-navbar__link,

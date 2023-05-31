@@ -1,9 +1,14 @@
 .books-list__table {
-  border: 2px solid black;
+  max-width: 900px;
+  margin: 0 0.5rem;
 }
 
 tr,
 th,
 td {
   border: none;
+}
+
+th {
+  max-width: 400px;
 }
