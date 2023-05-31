@@ -1,3 +1,7 @@
+/* BASE */
+
+@import 'abstract/utils.css';
+
 /* LAYOUT */
 
 @import 'layout/navbar.css';
