@@ -10,11 +10,11 @@
   border-left: 1px solid black;
 }
 
-.my-navbar__link:hover {
-  text-decoration: underline;
-}
-
 .my-navbar__link,
 .my-navbar__brand {
   font-weight: 500;
+}
+
+.my-navbar__link:hover {
+  text-decoration: underline;
 }
