@@ -8,36 +8,56 @@
       name="description"
       content="A basic website that allows users to add/remove books from a list"
     />
-    <meta name="author" content="Arthur Emanuel Guerra Iturres" />
+    <meta
+      name="author"
+      content="Arthur Emanuel Guerra Iturres, Vishal Mishra"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="src/assets/styles/index.css">
     <title>Awesome-Books</title>
   </head>
   <body>
     <main>
-      <h1>Awesome Books</h1>
-      <section id="books-data-store">
-        <div class="books--wrapper" data-books-list-holder>
-          <!-- books will be auto injected -->
-        </div>
+      <h1 class="text-center py-3">All Awesome Books</h1>
+      <section id="books-list">
+        <table class="books-list__table table table-striped container">
+          <tbody class="books--wrapper" data-books-list-holder>
+            <thead>
+              <th>Title</th>
+              <th>Author</th>
+            </thead>
+            <!-- books will be auto injected -->
+          </tbody>
+        </table>
       </section>
-      <section id="note-taker">
-        <div class="note-taker--wrapper">
-            <input
-              name="title"
-              type="text"
-              max="50"
-              placeholder="Title"
-              required
-            />
-            <br />
-            <input
-              name="author"
-              type="text"
-              maxlength="30"
-              placeholder="Author"
-              required
-            />
-            <br />
-            <button type="button" data-add-note-btn>Add</button>
+      <section
+        id="add-new-book"
+        class="container d-flex flex-column align-items-center"
+      >
+        <h2 class="text-center py-3">Add New Book</h2>
+        <div
+          class="add-new-book--wrapper d-flex flex-column align-items-end gap-3"
+        >
+          <input
+            name="title"
+            type="text"
+            max="50"
+            placeholder="Title"
+            required
+          />
+          <input
+            name="author"
+            type="text"
+            maxlength="30"
+            placeholder="Author"
+            required
+          />
+          <button type="button" data-add-note-btn>Add</button>
         </div>
       </section>
     </main>
