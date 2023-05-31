@@ -18,12 +18,22 @@
       integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="src/assets/styles/index.css">
+    <link rel="stylesheet" href="src/assets/styles/index.css" />
     <title>Awesome-Books</title>
   </head>
   <body>
+    <header class="container">
+      <nav class="my-navbar navbar-brand d-flex p-2 mt-2">
+        <span class="my-navbar__brand ps-2">Awesome Books</span>
+        <ul class="d-flex list-unstyled justify-content-end container">
+          <li class="my-navbar__link"><span>List</span></li>
+          <li class="my-navbar__link ps-2 ms-2"><span>Add new</span></li>
+          <li class="my-navbar__link ps-2 ms-2"><span>Contact</span></li>
+        </ul>
+      </nav>
+    </header>
     <main>
-      <h1 class="text-center py-3">All Awesome Books</h1>
+      <h1 class="text-center py-3 mt-4">All Awesome Books</h1>
       <section id="books-list">
         <table class="books-list__table table table-striped container">
           <tbody class="books--wrapper" data-books-list-holder>
@@ -37,7 +47,7 @@
       </section>
       <section
         id="add-new-book"
-        class="container d-flex flex-column align-items-center"
+        class="container flex-column align-items-center"
       >
         <h2 class="text-center py-3">Add New Book</h2>
         <div
