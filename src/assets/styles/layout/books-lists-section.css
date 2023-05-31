@@ -1,0 +1,9 @@
+.books-list__table {
+  border: 2px solid black;
+}
+
+tr,
+th,
+td {
+  border: none;
+}
