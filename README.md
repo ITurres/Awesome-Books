@@ -1,11 +1,8 @@
 <a name="readme-top"></a>
 
 <div align="center">
-  <!-- <img src="" alt="logo" width="140"  height="auto" />
-  <br/> -->
   <h1><b>📚</b></h1>
   <h2><b>Awesome Books</b></h2>
-
 </div>
 
 ---
@@ -61,13 +58,6 @@
   </ul>
 </details>
 
-<!-- <details>
-  <summary>Styles</summary>
-  <ul>
-    <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS">CSS</a></li>
-  </ul>
-</details> -->
-
 <details>
 <summary>Dynamic</summary>
   <ul>
@@ -109,14 +99,6 @@ To get a local copy up and running, follow these steps.
 In order to run this project you need:
 
 - Not Applicable
-<!--
-Example command:
-
-```sh
- gem install rails
-```
-
--->
 
 ### Setup
 
@@ -134,29 +116,12 @@ Example commands:
 Install this project with:
 
 - Not Applicable
-<!--
-Example command:
-
-```sh
-  cd my-project
-  gem install
-```
-
---->
 
 ### Usage
 
 To run the project, execute the following command:
 
 - Not Applicable
-<!--
-Example command:
-
-```sh
-  rails server
-```
-
---->
 
 #### Run with:
 
@@ -167,28 +132,12 @@ Example command:
 To run tests, run the following command:
 
 - Not Applicable
-<!--
-Example command:
-
-```sh
-  bin/rails test test/models/article_test.rb
-```
-
---->
 
 ### Deployment
 
 You can deploy this project using:
 
 - Not Applicable
-<!--
-Example:
-
-```sh
-
-```
-
--->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -206,7 +155,7 @@ Example:
 
 👤 **Author2**
 
-- GitHub  | [@Vishal30M](https://github.com/Vishal30M)
+- GitHub | [@Vishal30M](https://github.com/Vishal30M)
 - Twitter | [@Vismiss30](https://twitter.com/Vismiss30)
 - LinkdIn | [vishal-kumar-mishra](https://www.linkedin.com/in/vishal-kumar-mishra-0a5226232/)
 
@@ -261,9 +210,7 @@ I thank Microverse for this fantastic opportunity, the code reviewers for their 
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./LICENSE) licensed.
-
-<!-- _NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._ -->
+This project is [MIT](./LICENSE.md) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
