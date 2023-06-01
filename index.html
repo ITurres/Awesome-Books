@@ -26,9 +26,9 @@
       <nav class="my-navbar navbar-brand border-black d-flex p-2 m-2">
         <span class="my-navbar__brand ps-2">Awesome Books</span>
         <ul class="d-flex list-unstyled justify-content-end container">
-          <li class="my-navbar__link"><span>List</span></li>
-          <li class="my-navbar__link ps-2 ms-2"><span>Add new</span></li>
-          <li class="my-navbar__link ps-2 ms-2"><span>Contact</span></li>
+          <li id="toBookListSection" class="my-navbar__link"><span>List</span></li>
+          <li id="toAddNewBookSection" class="my-navbar__link ps-2 ms-2"><span>Add new</span></li>
+          <li id="toContactSection" class="my-navbar__link ps-2 ms-2"><span>Contact</span></li>
         </ul>
       </nav>
     </header>
@@ -48,7 +48,7 @@
         </div>
       </section>
       <section
-        id="add-new-book"
+        id="add-new-book" 
         class="container flex-column align-items-center"
       >
         <h2 class="text-center py-3">Add New Book</h2>
@@ -92,6 +92,7 @@
         <span class="ps-2">&copy;copyright</span>
       </div>
     </footer>
+    <script type="application/javascript" src="src/assets/js/UX/toggle-section-style.js"></script>
     <script
       src="src/assets/js/user-controller/user-controller-events.js"
       type="module"
