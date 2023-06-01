@@ -3,3 +3,8 @@
 #contact {
   height: calc(100vh - 120px); /* !sections height - (navbar + footer)height */
 }
+
+#add-new-book,
+#contact {
+ display: none;
+}
