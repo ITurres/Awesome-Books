@@ -6,10 +6,15 @@
 
 @import 'layout/navbar.css';
 @import 'layout/books-lists-section.css';
+@import 'layout/add-new-book-section.css';
 
 /* PAGES */
 
 @import 'pages/sections.css';
+
+/* CONFIG BREAKPOINTS */
+
+@import 'config/breakpoints/books-lists-section-breakpoints.css';
 
 /* VENDORS-EXTENSIONS */
 
