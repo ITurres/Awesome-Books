@@ -1,14 +1,25 @@
 .books-list__table {
   max-width: 900px;
-  margin: 0 0.5rem;
+  max-height: 400px;
+  display: block;
+  overflow: auto;
+  /* width: auto; */
 }
 
 tr,
 th,
 td {
   border: none;
+  min-width: fit-content;
+  width: auto;
 }
 
 th {
-  max-width: 400px;
+  min-width: 200px;
+  width: 100%;
+}
+
+.books-list__table .btn-secondary:hover {
+  background-color: rgb(79, 25, 25);
+  color: red;
 }
