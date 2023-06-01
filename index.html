@@ -18,32 +18,52 @@
       integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="src/assets/styles/index.css">
+    <link rel="stylesheet" href="src/assets/styles/index.css" />
     <title>Awesome-Books</title>
   </head>
   <body>
+    <header class="container p-0">
+      <nav class="my-navbar navbar-brand border-black d-flex p-2 m-2">
+        <span class="my-navbar__brand ps-2">Awesome Books</span>
+        <ul class="d-flex list-unstyled justify-content-end container">
+          <li id="toBookListSection" class="my-navbar__link">
+            <span>List</span>
+          </li>
+          <li id="toAddNewBookSection" class="my-navbar__link ps-2 ms-2">
+            <span>Add new</span>
+          </li>
+          <li id="toContactSection" class="my-navbar__link ps-2 ms-2">
+            <span>Contact</span>
+          </li>
+        </ul>
+      </nav>
+    </header>
     <main>
-      <h1 class="text-center py-3">All Awesome Books</h1>
       <section id="books-list">
-        <table class="books-list__table table table-striped container">
-          <tbody class="books--wrapper" data-books-list-holder>
+        <h1 class="text-center py-3 pt-5">All Awesome Books</h1>
+        <div class="d-flex justify-content-center container p-0">
+          <table class="books-list__table table table-striped border-black m-2">
             <thead>
               <th>Title</th>
               <th>Author</th>
+              <th></th>
             </thead>
-            <!-- books will be auto injected -->
-          </tbody>
-        </table>
+            <tbody class="books--wrapper" data-books-list-holder>
+              <!-- books will be auto injected -->
+            </tbody>
+          </table>
+        </div>
       </section>
       <section
         id="add-new-book"
-        class="container d-flex flex-column align-items-center"
+        class="container flex-column justify-content-center align-items-center"
       >
-        <h2 class="text-center py-3">Add New Book</h2>
+        <h2 class="text-center py-3 m-3">Add New Book</h2>
         <div
-          class="add-new-book--wrapper d-flex flex-column align-items-end gap-3"
+          class="add-new-book--wrapper d-flex flex-column align-items-end gap-3 m-3"
         >
           <input
+            class="form-control"
             name="title"
             type="text"
             max="50"
@@ -51,16 +71,42 @@
             required
           />
           <input
+            class="form-control"
             name="author"
             type="text"
             maxlength="30"
             placeholder="Author"
             required
           />
-          <button type="button" data-add-note-btn>Add</button>
+          <button type="button" class="btn btn-secondary" data-add-note-btn>
+            Add
+          </button>
+        </div>
+      </section>
+      <section id="contact" class="flex-column justify-content-center">
+        <div class="d-flex flex-column align-items-center container">
+          <h2 class="text-center h1 py-3">Contact Information</h2>
+          <p class="text-center pt-3 mb-0">
+            Do you have any question or you just want to say "Hello"?
+          </p>
+          <p class="text-left h5">You can reach out to us!</p>
+          <ul class="list-group mt-2">
+            <li>Our phone number: 0043586534422</li>
+            <li>Our e-mail: mail@mail.com</li>
+            <li>Our address: Street name 22, 84503 City, Country</li>
+          </ul>
         </div>
       </section>
     </main>
+    <footer class="container p-0">
+      <div class="border-black p-2 m-2">
+        <span class="ps-2">&copy;copyright</span>
+      </div>
+    </footer>
+    <script
+      type="application/javascript"
+      src="src/assets/js/UX/toggle-section-style.js"
+    ></script>
     <script
       src="src/assets/js/user-controller/user-controller-events.js"
       type="module"

@@ -1,0 +1,18 @@
+#books-list,
+#add-new-book,
+#contact {
+  height: calc(100vh - 120px); /* !sections height - (navbar + footer)height */
+}
+
+#add-new-book,
+#contact {
+  display: none;
+}
+
+#contact p {
+  font-size: 1.5rem;
+}
+
+#contact ul {
+  font-size: 1.1rem;
+}

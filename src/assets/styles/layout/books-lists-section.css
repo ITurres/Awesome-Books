@@ -1,9 +1,24 @@
 .books-list__table {
-  border: 2px solid black;
+  max-width: 900px;
+  max-height: 400px;
+  display: block;
+  overflow: auto;
 }
 
 tr,
 th,
 td {
   border: none;
+  min-width: fit-content;
+  width: auto;
+}
+
+th {
+  min-width: 200px;
+  width: 100%;
+}
+
+.books-list__table .btn-secondary:hover {
+  background-color: rgb(79, 25, 25);
+  color: red;
 }
