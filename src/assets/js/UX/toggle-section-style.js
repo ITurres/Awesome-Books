@@ -15,7 +15,7 @@ const checkLinkId = (linkId) => {
   } else if (linkId === navbarLinks[1].id) {
     changeSectionsStyle('none', 'flex', 'none');
   } else {
-    changeSectionsStyle('none', 'none', 'block');
+    changeSectionsStyle('none', 'none', 'flex');
   }
 };
 
