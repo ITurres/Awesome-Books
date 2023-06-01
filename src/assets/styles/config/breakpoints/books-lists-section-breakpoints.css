@@ -1,0 +1,5 @@
+@media (max-width: 768px) {
+  th {
+    min-width: 110px;
+  }
+}
