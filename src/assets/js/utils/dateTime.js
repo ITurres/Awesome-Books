@@ -1,4 +1,4 @@
-import DateTime from '../../../../node_modules/luxon/src/datetime.js';
+import { DateTime } from './luxon.js';
 
 const dateTimeNow = DateTime.now().toFormat('MMMM d yyyy, h:mm:ss a');
 
