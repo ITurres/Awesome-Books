@@ -1,7 +1,7 @@
 #books-list,
 #add-new-book,
 #contact {
-  height: calc(100vh - 120px); /* !sections height - (navbar + footer)height */
+  height: calc(100vh - 145px); /* !sections height - (header + footer)height */
 }
 
 #add-new-book,
