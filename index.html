@@ -22,7 +22,7 @@
     <title>Awesome-Books</title>
   </head>
   <body>
-    <header class="container p-0">
+    <header class="container d-flex flex-column p-0">
       <nav class="my-navbar navbar-brand border-black d-flex p-2 m-2">
         <span class="my-navbar__brand ps-2">Awesome Books</span>
         <ul class="d-flex list-unstyled justify-content-end container">
@@ -37,6 +37,9 @@
           </li>
         </ul>
       </nav>
+      <span class="header__date-time align-self-end" data-date-time-holder
+        >Date Time</span
+      >
     </header>
     <main>
       <section id="books-list">
@@ -103,13 +106,6 @@
         <span class="ps-2">&copy;copyright</span>
       </div>
     </footer>
-    <script
-      type="application/javascript"
-      src="src/assets/js/UX/toggle-section-style.js"
-    ></script>
-    <script
-      src="src/assets/js/user-controller/user-controller-events.js"
-      type="module"
-    ></script>
+    <script src="src/assets/js/modules.js" type="module"></script>
   </body>
 </html>
