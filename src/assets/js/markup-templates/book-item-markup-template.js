@@ -1,5 +1,4 @@
-function createBookItemMarkupTemplate(book) {
-  return `<tr class="book-item">
+const createBookItemMarkupTemplate = (book) => `<tr class="book-item">
       <td>${book.title}</td>
       <td>${book.author}</td>
       <td class="d-flex justify-content-end">
@@ -9,6 +8,5 @@ function createBookItemMarkupTemplate(book) {
         </button>
       </td>
     </tr>`;
-}
 
 export default createBookItemMarkupTemplate;
